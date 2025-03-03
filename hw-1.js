@@ -55,5 +55,4 @@ alert(user.isAdmin);
 
 //Задание 10
 let name1 = prompt("Как вас зовут?");
-let e = "Привет ";
-alert(e + name1);
+alert(`Привет, ${name1}!`);
