@@ -18,12 +18,41 @@ body {
   height: 800px;
   background-color: #e1ff8f;
 
+  &__img-star1 {
+    position: absolute;
+    top: 69px;
+    left: 156px;
+  }
+  &__img-star2 {
+    position: absolute;
+    top: 94px;
+    left: 63px;
+  }
+  &__img-star3 {
+    position: absolute;
+    top: 538px;
+    left: 948px;
+  }
+  &__img-star4 {
+    position: absolute;
+    top: 568px;
+    left: 1013px;
+  }
+  &__img-star5 {
+    position: absolute;
+    top: 0px;
+    left: 854px;
+  }
+
+  &__block {
+    padding-top: 196px;
+  }
+
   &__title {
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
-    padding-top: 196px;
-    margin-left: 120;
+    color: #202027;
   }
 
   &__text {
@@ -31,10 +60,12 @@ body {
     font-size: 24px;
     line-height: 32px;
     padding-top: 24px;
+    color: #202027;
   }
 
   &__text2 {
     font-weight: 600;
+    color: #202027;
   }
 
   &__btn {
@@ -67,6 +98,15 @@ body {
 .card {
   background: #202027;
   height: 1470px;
+
+
+&__img-blackstar1 {
+  position: absolute;
+  top: 945.92px;
+  left: 933px;
+}
+
+
 
   &__title {
     font-family: Montserrat;
