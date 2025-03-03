@@ -5,12 +5,12 @@ a = 20;
 alert(a);
 
 //Задание 2
-const iphone = 2007;
-iphone = alert("год рождения Iphone 2007");
+let iphone = 2007;
+alert(iphone);
 
 //Задание 3
-const creatjs = 3;
-creatjs = alert("Brendan Eich имя создателя JavaScript");
+let creatorjs = "Brendan Eich";
+alert(creatorjs);
 
 //Задание 4
 let a1 = 10;
