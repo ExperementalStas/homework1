@@ -18,21 +18,50 @@ body {
   height: 800px;
   background-color: #e1ff8f;
 }
+.top__img-star1 {
+  position: absolute;
+  top: 69px;
+  left: 156px;
+}
+.top__img-star2 {
+  position: absolute;
+  top: 94px;
+  left: 63px;
+}
+.top__img-star3 {
+  position: absolute;
+  top: 538px;
+  left: 948px;
+}
+.top__img-star4 {
+  position: absolute;
+  top: 568px;
+  left: 1013px;
+}
+.top__img-star5 {
+  position: absolute;
+  top: 0px;
+  left: 854px;
+}
+.top__block {
+  padding-top: 196px;
+}
 .top__title {
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
-  padding-top: 196px;
-  margin-left: 120;
+  color: #202027;
 }
 .top__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   padding-top: 24px;
+  color: #202027;
 }
 .top__text2 {
   font-weight: 600;
+  color: #202027;
 }
 .top__btn {
   background: #202027;
@@ -61,6 +90,11 @@ body {
 .card {
   background: #202027;
   height: 1470px;
+}
+.card__img-blackstar1 {
+  position: absolute;
+  top: 945.92px;
+  left: 933px;
 }
 .card__title {
   font-family: Montserrat;
