@@ -49,9 +49,11 @@ body {
   }
 
   &__title {
-    font-weight: 700;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
     font-size: 64px;
-    line-height: 78px;
+    line-height: 78.02px;
     color: #202027;
   }
 
@@ -78,7 +80,7 @@ body {
     font-size: 24px;
     font-weight: 600px;
     color: rgb(255, 255, 255);
-    margin-top: 64px;
+    margin-top: 48px;
     margin-bottom: 156px;
   }
 
@@ -99,14 +101,22 @@ body {
   background: #202027;
   height: 1470px;
 
+  &__img-blackstar1 {
+    position: absolute;
+    top: 913px; //946
+    left: 982px; //933
+  }
 
-&__img-blackstar1 {
-  position: absolute;
-  top: 945.92px;
-  left: 933px;
-}
-
-
+  &__img-blackstar2 {
+    position: absolute;
+    top: 1570px;
+    left: 27.97px;
+  }
+  &__img-blackstar3 {
+    position: absolute;
+    top: 1622px;
+    left: 48.18px;
+  }
 
   &__title {
     font-family: Montserrat;
@@ -114,12 +124,11 @@ body {
     font-size: 64px;
     line-height: 78.02px;
     letter-spacing: 0px;
-    padding-top: 96px;
+    padding-top: 94px;
     color: #ffffff;
   }
 
   &__text {
-    width: 700px;
     margin-top: 24px;
     margin-bottom: 72px;
     font-family: Montserrat;
@@ -156,7 +165,6 @@ body {
 
   &__item {
     height: 314px;
-
     background-repeat: no-repeat;
     border-radius: 30px;
   }
@@ -172,6 +180,7 @@ body {
 
   &__item-3 {
     background: url(img/about3.png);
+    z-index: 1;
   }
 
   &__item-4 {
@@ -196,6 +205,7 @@ body {
     align-items: center;
     margin-top: 13px;
     margin-left: 32px;
+    margin-right: 207px;
     margin-bottom: 10px;
     border-radius: 52.58px;
     background: rgb(247, 247, 247);
@@ -210,6 +220,65 @@ body {
     padding: 0px 36px 32px;
   }
 }
+
+
+.game-box {
+  background-color: #202027;
+}
+.center {
+}
+.game-box__img1 {
+}
+.game-box__img2 {
+}
+.game-box__title {
+font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 72px;
+  padding-top: 46px;
+}
+.game-box__game {
+}
+.game-box__games {
+    display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.game-box__games-1 {  
+}
+.game-box__games-item {
+  
+
+}
+.game-box__games-item-1 {
+  background-image: url(img/about1.png);
+}
+.game-box__games-number {
+}
+.game-box__games-text {
+   font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   background-color: #bded35;
@@ -231,3 +300,5 @@ body {
 
 @import "mobile";
 @import "tablet";
+
+//<script src="hw-1.js"></script>

@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;display=swap"
-      rel="stylesheet" />
-
-    <title>Document</title>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -27,28 +26,32 @@
         <a href="#card-box">
           <button class="top__btn">Поехали!</button>
         </a>
+
+        <div class="top__line">
+          <div class="top__line-text">
+            <p class="top__line-text2"></p>
+            <p class="top__line-text2"></p>
+            <p class="top__line-text2"></p>
+            <p class="top__line-text2"></p>
+            <p class="top__line-text2"></p>
+            <p class="top__line-text2"></p>
+          </div>
+        </div>
       </div>
     </header>
-    <div class="top__line">
-      <div class="top__line-text">
-        <p class="top__line-text2"></p>
-        <p class="top__line-text2"></p>
-        <p class="top__line-text2"></p>
-        <p class="top__line-text2"></p>
-        <p class="top__line-text2"></p>
-        <p class="top__line-text2"></p>
-      </div>
-    </div>
     <section class="card center">
       <img
         class="card__img-blackstar1"
         src="img/blackstar.png"
-        alt="bstarbig" />
+        alt="bstarbig"
+      />
+      <img class="card__img-blackstar2" src="img/Blackstar1.png" alt="bstar1" />
+      <img class="card__img-blackstar3" src="img/Blackstar2.png" alt="bstar2" />
       <div>
         <h2 class="card__title">Об играх</h2>
         <h3 class="card__text">
-          В моей коллекции представлено 6 игр на разные темы. <br />
-          Игры несложные — в них может поиграть каждый. <br />
+          В моей коллекции представлено 6 игр на разные темы.<br />
+          Игры несложные — в них может поиграть каждый.<br />
           Все игры доступны для пользования.
         </h3>
         <div id="card-box" class="card-box">
@@ -85,9 +88,22 @@
         </div>
       </div>
     </section>
+    <section class="game-box center" id="">
+      <img class="game-box__img1" src="" alt="" />
+      <img class="game-box__img2" src="" alt="" />
+      <h2 class="game-box__title">Мини-игры</h2>
+      <div class="game-box__game">
+        <article class="game-box__games">
+          <a class="game-box__games-1" href="#">
+            <div class="game-box__games-item game-box__games-item-1"></div>
+            <div class="game-box__games-number">Игра № 1</div>
+            <div class="game-box__games-text">Угадай число</div>
+          </a>
+        </article>
+      </div>
+    </section>
     <footer class="footer">
       <h3 class="footer__text">Все права защищены</h3>
     </footer>
-    <script src="hw-1.js"></script>
   </body>
 </html>

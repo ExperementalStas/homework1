@@ -47,9 +47,11 @@ body {
   padding-top: 196px;
 }
 .top__title {
-  font-weight: 700;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: bold;
   font-size: 64px;
-  line-height: 78px;
+  line-height: 78.02px;
   color: #202027;
 }
 .top__text {
@@ -73,7 +75,7 @@ body {
   font-size: 24px;
   font-weight: 600px;
   color: rgb(255, 255, 255);
-  margin-top: 64px;
+  margin-top: 48px;
   margin-bottom: 156px;
 }
 .top__btn:hover {
@@ -93,8 +95,18 @@ body {
 }
 .card__img-blackstar1 {
   position: absolute;
-  top: 945.92px;
-  left: 933px;
+  top: 913px;
+  left: 982px;
+}
+.card__img-blackstar2 {
+  position: absolute;
+  top: 1570px;
+  left: 27.97px;
+}
+.card__img-blackstar3 {
+  position: absolute;
+  top: 1622px;
+  left: 48.18px;
 }
 .card__title {
   font-family: Montserrat;
@@ -102,11 +114,10 @@ body {
   font-size: 64px;
   line-height: 78.02px;
   letter-spacing: 0px;
-  padding-top: 96px;
+  padding-top: 94px;
   color: #ffffff;
 }
 .card__text {
-  width: 700px;
   margin-top: 24px;
   margin-bottom: 72px;
   font-family: Montserrat;
@@ -153,6 +164,7 @@ body {
 }
 .card-box__item-3 {
   background: url(img/about3.png);
+  z-index: 1;
 }
 .card-box__item-4 {
   background: url(img/about4.png);
@@ -173,6 +185,7 @@ body {
   align-items: center;
   margin-top: 13px;
   margin-left: 32px;
+  margin-right: 207px;
   margin-bottom: 10px;
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
@@ -183,6 +196,37 @@ body {
   font-weight: 700;
   text-align: left;
   padding: 0px 36px 32px;
+}
+
+.game-box {
+  background-color: #202027;
+}
+
+.game-box__title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 72px;
+  padding-top: 46px;
+}
+
+.game-box__games {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.game-box__games-item-1 {
+  background-image: url(img/about1.png);
+}
+
+.game-box__games-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 36px;
 }
 
 .footer {
