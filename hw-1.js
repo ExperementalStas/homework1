@@ -1,4 +1,3 @@
-
 //Задание 1
 let a = 10;
 alert(a);
@@ -10,7 +9,7 @@ let iphone = 2007;
 alert(iphone);
 
 //Задание 3
-let creator = "Brendan Eich";
+let creatjs = "Brendan Eich";
 alert(creatjs);
 
 //Задание 4
