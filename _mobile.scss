@@ -5,11 +5,16 @@
   }
 
   .top {
-    height: 700px; 
+    height: 700px;
     background-color: #e1ff8f;
 
+    &__img-star5,&__img-star4,&__img-star3,&__img-star2,&__img-star1 {
+      display: none;
+    }
+
     &__block {
-      max-width: 100%; 
+      max-width: 100%;
+      padding-top: 0;
     }
 
     &__block1 {
@@ -19,19 +24,19 @@
 
     &__title {
       font-weight: 700;
-      font-size: 40px; 
-      line-height: 48px; 
-      padding-top: 147px; 
-      margin-left: 0; 
-      text-align: center; 
+      font-size: 40px;
+      line-height: 48px;
+      padding-top: 147px;
+      margin-left: 0;
+      text-align: center;
     }
 
     &__text {
       font-weight: 400;
-      font-size: 16px; 
+      font-size: 16px;
       line-height: 24px;
-      padding-top: 24px; 
-      text-align: center; 
+      padding-top: 24px;
+      text-align: center;
     }
 
     &__text2 {
@@ -43,15 +48,15 @@
       border: 1px solid #202027;
       box-sizing: border-box;
       border-radius: 30px;
-      width: 285px; 
-      height: 55px; 
-      font-size: 16px; 
+      width: 285px;
+      height: 55px;
+      font-size: 16px;
       font-weight: 600;
       color: rgb(255, 255, 255);
-      margin-top: 32px; 
-      margin-bottom: 80px; 
-      display: block; 
-      margin-left: auto; 
+      margin-top: 32px;
+      margin-bottom: 80px;
+      display: block;
+      margin-left: auto;
       margin-right: auto;
       margin-bottom: 131px;
     }
@@ -64,23 +69,20 @@
 
     &__line {
       background-color: rgb(188, 236, 48);
-      max-width: 100%; 
+      max-width: 100%;
       overflow: hidden;
       height: 60px;
     }
   }
 
-
-
   .card {
     display: none;
-  } .top__line {
-  margin-bottom: 131px;
- }
+  }
+  .top__line {
+    margin-bottom: 131px;
+  }
 
-
-.top__line {
-  display: none; //временно убрал бегущую строку  
-}
-
+  .top__line {
+    display: none; //временно убрал бегущую строку
+  }
 }
