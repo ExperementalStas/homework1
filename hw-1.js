@@ -57,7 +57,7 @@ alert(user.isAdmin);
 let name1 = prompt("Как вас зовут?");
 alert(`Привет, ${name1}!`);
 
-//Задание Доп
+//Доп Дз
 
 let number = prompt("Загадайте любое число:");
 number = Number(number);
@@ -70,4 +70,3 @@ alert(`Результат деления на 2: ${dividedByTwo}`);
 let finalResult = dividedByTwo - number;
 alert(`Результат после вычитания: ${finalResult}`);
 alert("Ответ равен 5!");
-
