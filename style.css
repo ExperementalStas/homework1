@@ -96,7 +96,7 @@ body {
 .card__img-blackstar1 {
   position: absolute;
   top: 913px;
-  left: 982px;
+  right: 0px;
 }
 .card__img-blackstar2 {
   position: absolute;
