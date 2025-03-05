@@ -451,10 +451,6 @@ body {
   .games__star--4 {
     display: none;
   }
-  .games__box {
-    height: 528px;
-    width: 343px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .center {
