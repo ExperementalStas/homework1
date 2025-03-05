@@ -41,7 +41,13 @@ body {
   &__img5 {
     position: absolute;
     top: 0px;
-    left: 854px;
+    right: 0px;
+  }
+  &__img5mob {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
 
   &__block {
@@ -103,7 +109,7 @@ body {
 
   &__img-blackstar1 {
     position: absolute;
-    top: 913px; //946
+    top: 945px; //946
     right: 0px; //933
   }
 
@@ -155,6 +161,7 @@ body {
     grid-column: span 4;
     border-radius: 30px;
     background-repeat: no-repeat;
+    z-index: 1;
   }
 
   &__img:hover {
@@ -180,7 +187,7 @@ body {
 
   &__item-3 {
     background: url(img/about3.png);
-    z-index: 1;
+   
   }
 
   &__item-4 {
@@ -237,13 +244,11 @@ body {
 .card1-box1__img {
 }
 .card1-box1__item {
- 
 }
 .card1-box1__item-1 {
-  
 }
 .card1-box1__flex {
- display: flex;
+  display: flex;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
   transition: all 0.5s;

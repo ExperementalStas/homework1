@@ -17,7 +17,7 @@
     }
 
     &__img1m {
-      display: inline;
+      display: block;
       background-repeat: no-repeat;
       top: 64px;
       left: 92px;
@@ -25,7 +25,7 @@
       height: 21px;
     }
     &__img2m {
-      display: inline;
+      display: block;
       background-repeat: no-repeat;
       top: 97px;
       left: 38px;
@@ -34,7 +34,7 @@
     }
 
     &__img3m {
-      display: inline;
+      display: block;
       background-repeat: no-repeat;
       top: 577px;
       left: 273px;
@@ -42,13 +42,21 @@
       height: 18px;
     }
     &__img4m {
-      display: inline;
+      display: block;
       background-repeat: no-repeat;
       top: 580px;
       left: 304px;
       width: 39px;
       height: 41px;
     }
+   &__img5mob {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+
 
     &__block {
       max-width: 100%;
@@ -97,11 +105,11 @@
       font-weight: 600;
       color: rgb(255, 255, 255);
       margin-top: 32px;
-      margin-bottom: 80px;
+      margin-bottom: 90px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 131px;
+      //margin-bottom: 131px;
     }
 
     &__btn:hover {
@@ -122,10 +130,10 @@
     display: none;
   }
   .top__line {
-    margin-bottom: 131px;
+   
   }
 
   .top__line {
-    display: none; //временно убрал бегущую строку
+    //временно убрал бегущую строку
   }
 }

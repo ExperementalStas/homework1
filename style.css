@@ -41,7 +41,13 @@ body {
 .top__img5 {
   position: absolute;
   top: 0px;
-  left: 854px;
+  right: 0px;
+}
+.top__img5mob {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 .top__block {
   padding-top: 196px;
@@ -95,7 +101,7 @@ body {
 }
 .card__img-blackstar1 {
   position: absolute;
-  top: 913px;
+  top: 945px;
   right: 0px;
 }
 .card__img-blackstar2 {
@@ -144,6 +150,7 @@ body {
   grid-column: span 4;
   border-radius: 30px;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .card-box__img:hover {
   width: 350px;
@@ -164,7 +171,6 @@ body {
 }
 .card-box__item-3 {
   background: url(img/about3.png);
-  z-index: 1;
 }
 .card-box__item-4 {
   background: url(img/about4.png);
@@ -276,7 +282,7 @@ body {
     display: none;
   }
   .top__img1m {
-    display: inline;
+    display: block;
     background-repeat: no-repeat;
     top: 64px;
     left: 92px;
@@ -284,7 +290,7 @@ body {
     height: 21px;
   }
   .top__img2m {
-    display: inline;
+    display: block;
     background-repeat: no-repeat;
     top: 97px;
     left: 38px;
@@ -292,7 +298,7 @@ body {
     height: 35px;
   }
   .top__img3m {
-    display: inline;
+    display: block;
     background-repeat: no-repeat;
     top: 577px;
     left: 273px;
@@ -300,12 +306,18 @@ body {
     height: 18px;
   }
   .top__img4m {
-    display: inline;
+    display: block;
     background-repeat: no-repeat;
     top: 580px;
     left: 304px;
     width: 39px;
     height: 41px;
+  }
+  .top__img5mob {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
   .top__block {
     max-width: 100%;
@@ -349,11 +361,10 @@ body {
     font-weight: 600;
     color: rgb(255, 255, 255);
     margin-top: 32px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 131px;
   }
   .top__btn:hover {
     background: #ffffff;
@@ -367,12 +378,6 @@ body {
     height: 60px;
   }
   .card {
-    display: none;
-  }
-  .top__line {
-    margin-bottom: 131px;
-  }
-  .top__line {
     display: none;
   }
 }
