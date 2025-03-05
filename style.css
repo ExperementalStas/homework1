@@ -95,37 +95,37 @@ body {
   height: 90px;
 }
 
-.card {
+.aboutGames {
   background: #202027;
   height: 1470px;
 }
-.card__img-blackstar1 {
+.aboutGames__star--big {
   position: absolute;
   top: 945px;
   right: 0px;
 }
-.card__img-blackstar2 {
+.aboutGames__star--1 {
   position: absolute;
   top: 1570px;
   left: 27.97px;
 }
-.card__img-blackstar3 {
+.aboutGames__star--2 {
   position: absolute;
   top: 1622px;
   left: 48.18px;
 }
-.card__title {
+.aboutGames__title {
   font-family: Montserrat;
   font-weight: 700;
   font-size: 64px;
   line-height: 78.02px;
   letter-spacing: 0px;
+  padding-bottom: 24px;
   padding-top: 94px;
   color: #ffffff;
 }
-.card__text {
-  margin-top: 24px;
-  margin-bottom: 72px;
+.aboutGames__text {
+  padding-bottom: 72px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 24px;
@@ -133,8 +133,7 @@ body {
   letter-spacing: 0px;
   color: #ffffff;
 }
-
-.card-box {
+.aboutGames__box {
   max-height: 1060px;
   max-width: 1200px;
   display: grid;
@@ -143,7 +142,7 @@ body {
   align-items: start;
   gap: 32px;
 }
-.card-box__img {
+.aboutGames__item {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -152,36 +151,36 @@ body {
   background-repeat: no-repeat;
   z-index: 1;
 }
-.card-box__img:hover {
+.aboutGames__item:hover {
   width: 350px;
   transform: scale(1.1);
   transition: 1s;
 }
-.card-box__item {
+.aboutGames__item-content {
   height: 314px;
   background-repeat: no-repeat;
   border-radius: 30px;
 }
-.card-box__item-1 {
+.aboutGames__item-content--1 {
   background: url(img/about1.png);
   background-repeat: no-repeat;
 }
-.card-box__item-2 {
+.aboutGames__item-content--2 {
   background: url(img/about2.png);
 }
-.card-box__item-3 {
+.aboutGames__item-content--3 {
   background: url(img/about3.png);
 }
-.card-box__item-4 {
+.aboutGames__item-content--4 {
   background: url(img/about4.png);
 }
-.card-box__item-5 {
+.aboutGames__item-content--5 {
   background: url(img/about5.png);
 }
-.card-box__item-6 {
+.aboutGames__item-content--6 {
   background: url(img/about6.png);
 }
-.card-box__number {
+.aboutGames__item-number {
   height: 36px;
   color: rgb(32, 32, 39);
   font-size: 16px;
@@ -196,7 +195,7 @@ body {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
 }
-.card-box__text {
+.aboutGames__item-text {
   color: rgb(32, 32, 39);
   font-size: 32px;
   font-weight: 700;
@@ -204,52 +203,110 @@ body {
   padding: 0px 36px 32px;
 }
 
-.card1-box1 {
+.games {
+  background-color: #202027;
+}
+.games__star--1 {
+  position: absolute;
+  top: 2363px;
+  right: 124px;
+}
+.games__star--2 {
+  position: absolute;
+  top: 2396px;
+  right: 45px;
+}
+.games__star--3 {
+  position: absolute;
+  top: 5684px;
+  right: 150px;
+}
+.games__star--4 {
+  position: absolute;
+  top: 5636px;
+  right: 52px;
+}
+.games__content {
+  padding-top: 46px;
+  padding-bottom: 144px;
+}
+.games__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78.02px;
+  letter-spacing: 0px;
+  margin-bottom: 72px;
+  color: #ffffff;
+}
+.games__item {
+  margin-bottom: 32px;
+  border-radius: 30px;
+  color: rgb(32, 32, 39);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  padding: 48px;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  row-gap: 32px;
 }
-
-.card1-box1__flex {
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  border-radius: 30px;
-  transition: all 0.5s;
+.games__item--1 {
+  background-image: url(img/games1.png);
 }
-
-.card1-box1__title {
+.games__item--2 {
+  background-image: url(img/games2.png);
+}
+.games__item--3 {
+  background-image: url(img/games3.png);
+}
+.games__item--4 {
+  background-image: url(img/games4.png);
+}
+.games__item--5 {
+  background-image: url(img/games5.png);
+}
+.games__item--6 {
+  background-image: url(img/games6.png);
+}
+.games__item-title {
+  color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
   line-height: 59px;
+  padding-bottom: 24px;
   width: 504px;
 }
-
-.card1-box1__text {
+.games__item-text {
+  color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  padding-top: 24px;
   padding-bottom: 36px;
+  width: 500px;
 }
-
-.card-box__item-2 {
-  background-image: url(img/about2.png);
+.games__item-btn {
+  width: 247px;
+  height: 66px;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 260px;
+  font-family: "Montserrat";
 }
-
-.card-box__item-3 {
-  background-image: url(img/about3.png);
+.games__item--mb {
+  margin-bottom: 0px;
 }
-
-.card-box__item-4 {
-  background-image: url(img/about4.png);
+.games__item--right {
+  background-position-x: right;
 }
-
-.card-box__item-5 {
-  background-image: url(img/about5.png);
-}
-
-.card-box__item-6 {
-  background-image: url(img/about6.png);
+.games__item--left {
+  background-position-x: left;
+  align-items: flex-end;
 }
 
 .footer {
