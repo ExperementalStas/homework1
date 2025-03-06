@@ -1,14 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
-
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -18,12 +16,49 @@ body {
   height: 800px;
   background-color: #e1ff8f;
 
-  &__title {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+  &__img1 {
+    position: absolute;
+    top: 69px;
+    left: 156px;
+  }
+  &__img2 {
+    position: absolute;
+    top: 94px;
+    left: 63px;
+  }
+  &__img3 {
+    position: absolute;
+    top: 538px;
+    left: 948px;
+  }
+  &__img4 {
+    position: absolute;
+    top: 568px;
+    left: 1013px;
+  }
+  &__img5 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  &__img5mob {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  &__block {
     padding-top: 196px;
-    margin-left: 120;
+  }
+
+  &__title {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78.02px;
+    color: #202027;
   }
 
   &__text {
@@ -31,10 +66,12 @@ body {
     font-size: 24px;
     line-height: 32px;
     padding-top: 24px;
+    color: #202027;
   }
 
   &__text2 {
     font-weight: 600;
+    color: #202027;
   }
 
   &__btn {
@@ -47,7 +84,7 @@ body {
     font-size: 24px;
     font-weight: 600px;
     color: rgb(255, 255, 255);
-    margin-top: 64px;
+    margin-top: 48px;
     margin-bottom: 156px;
   }
 
@@ -64,9 +101,28 @@ body {
     height: 90px;
   }
 }
-.card {
+
+.aboutGames {
   background: #202027;
   height: 1470px;
+
+  &__star--big {
+    position: absolute;
+    top: 945px;
+    right: 0px;
+  }
+
+  &__star--1 {
+    position: absolute;
+    top: 1570px;
+    left: 27.97px;
+  }
+
+  &__star--2 {
+    position: absolute;
+    top: 1622px;
+    left: 48.18px;
+  }
 
   &__title {
     font-family: Montserrat;
@@ -74,14 +130,13 @@ body {
     font-size: 64px;
     line-height: 78.02px;
     letter-spacing: 0px;
-    padding-top: 96px;
+    padding-bottom: 24px;
+    padding-top: 94px;
     color: #ffffff;
   }
 
   &__text {
-    width: 700px;
-    margin-top: 24px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     font-family: Montserrat;
     font-weight: 400;
     font-size: 24px;
@@ -89,64 +144,65 @@ body {
     letter-spacing: 0px;
     color: #ffffff;
   }
-}
-.card-box {
-  max-height: 1060px;
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  align-items: start;
-  gap: 32px;
 
-  &__img {
+  &__box {
+    max-height: 1060px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: start;
+    gap: 32px;
+  }
+
+  &__item {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     grid-column: span 4;
     border-radius: 30px;
     background-repeat: no-repeat;
+    z-index: 1;
   }
 
-  &__img:hover {
+  &__item:hover {
     width: 350px;
     transform: scale(1.1);
     transition: 1s;
   }
 
-  &__item {
+  &__item-content {
     height: 314px;
-
     background-repeat: no-repeat;
     border-radius: 30px;
   }
 
-  &__item-1 {
+  &__item-content--1 {
     background: url(img/about1.png);
     background-repeat: no-repeat;
   }
 
-  &__item-2 {
+  &__item-content--2 {
     background: url(img/about2.png);
   }
 
-  &__item-3 {
+  &__item-content--3 {
     background: url(img/about3.png);
   }
 
-  &__item-4 {
+  &__item-content--4 {
     background: url(img/about4.png);
   }
 
-  &__item-5 {
+  &__item-content--5 {
     background: url(img/about5.png);
   }
 
-  &__item-6 {
+  &__item-content--6 {
     background: url(img/about6.png);
   }
 
-  &__number {
+  &__item-number {
     height: 36px;
     color: rgb(32, 32, 39);
     font-size: 16px;
@@ -156,18 +212,125 @@ body {
     align-items: center;
     margin-top: 13px;
     margin-left: 32px;
+    margin-right: 207px;
     margin-bottom: 10px;
     border-radius: 52.58px;
     background: rgb(247, 247, 247);
   }
 
-  &__text {
+  &__item-text {
     color: rgb(32, 32, 39);
     font-size: 32px;
     font-weight: 700;
     text-align: left;
-
     padding: 0px 36px 32px;
+  }
+}
+
+.games {
+  background-color: #202027;
+
+  &__star--1 {
+    position: absolute;
+    top: 2363px;
+    right: 124px;
+  }
+  &__star--2 {
+    position: absolute;
+    top: 2396px;
+    right: 45px;
+  }
+  &__star--3 {
+    position: absolute;
+    top: 5684px;
+    right: 150px;
+  }
+  &__star--4 {
+    position: absolute;
+    top: 5636px;
+    right: 52px;
+  }
+  &__content {
+    padding-top: 46px;
+    padding-bottom: 144px;
+  }
+  &__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78.02px;
+    letter-spacing: 0px;
+    padding-bottom: 72px;
+    color: #ffffff;
+  }
+  &__item {
+    margin-bottom: 32px;
+    border-radius: 30px;
+    color: rgb(32, 32, 39);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    padding: 48px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  &__item--1 {
+    background-image: url(img/games1.png);
+  }
+  &__item--2 {
+    background-image: url(img/games2.png);
+  }
+  &__item--3 {
+    background-image: url(img/games3.png);
+  }
+  &__item--4 {
+    background-image: url(img/games4.png);
+  }
+  &__item--5 {
+    background-image: url(img/games5.png);
+  }
+  &__item--6 {
+    background-image: url(img/games6.png);
+  }
+  &__item-title {
+    color: rgb(32, 32, 39);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    padding-bottom: 24px;
+    width: 504px;
+  }
+  &__item-text {
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 36px;
+    width: 500px;
+  }
+  &__item-btn {
+    width: 247px;
+    height: 66px;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 260px;
+    font-family: "Montserrat";
+  }
+  &__item--mb {
+    margin-bottom: 0px;
+  }
+  &__item--right {
+    background-position-x: right;
+  }
+  &__item--left {
+    background-position-x: left;
+    align-items: flex-end;
   }
 }
 
@@ -191,3 +354,7 @@ body {
 
 @import "mobile";
 @import "tablet";
+
+
+//calc((100vw - 1440px) / 2 - 448px);
+// <script src="hw-1.js"></script>

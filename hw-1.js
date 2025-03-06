@@ -5,12 +5,12 @@ a = 20;
 alert(a);
 
 //Задание 2
-const iphone = 2007;
-iphone = alert("год рождения Iphone 2007");
+let iphone = 2007;
+alert(iphone);
 
 //Задание 3
-const creatjs = 3;
-creatjs = alert("Brendan Eich имя создателя JavaScript");
+let creatjs = "Brendan Eich";
+alert(creatjs);
 
 //Задание 4
 let a1 = 10;
@@ -28,7 +28,7 @@ alert(result);
 let a2 = 9;
 let b2 = 2;
 alert(a2 % b2);
- 
+
 //Задание 7
 let num = 1;
 num += 5;
@@ -55,5 +55,18 @@ alert(user.isAdmin);
 
 //Задание 10
 let name1 = prompt("Как вас зовут?");
-let e = "Привет ";
-alert(e + name1);
+alert(`Привет, ${name1}!`);
+
+//Доп Дз
+
+let number = prompt("Загадайте любое число:");
+number = Number(number);
+let doubledNumber = number * 2;
+alert(`Удвоенное число: ${doubledNumber}`);
+let plusTen = doubledNumber + 10;
+alert(`Удвоенное число + 10: ${plusTen}`);
+let dividedByTwo = plusTen / 2;
+alert(`Результат деления на 2: ${dividedByTwo}`);
+let finalResult = dividedByTwo - number;
+alert(`Результат после вычитания: ${finalResult}`);
+alert("Ответ равен 5!");
