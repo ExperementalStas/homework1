@@ -15,7 +15,6 @@ body {
   display: none;
 }
 .top {
-  
   background-color: #e1ff8f;
 
   &__img1 {
@@ -95,18 +94,16 @@ body {
     color: #202027;
     transition: 0.3s;
   }
+}
+.line {
+  background-color: rgb(188, 236, 48);
 
-  &__line {
-    background-color: rgb(188, 236, 48);
-
-    overflow: hidden;
-    height: 90px;
-  }
+  overflow: hidden;
+  height: 90px;
 }
 
 .aboutGames {
   background: #202027;
-  height: 1470px;
 
   &__star--big {
     position: absolute;
@@ -148,13 +145,12 @@ body {
   }
 
   &__box {
-    max-height: 1060px;
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     align-items: start;
     gap: 32px;
+    padding-bottom: 30px;
   }
 
   &__item {
@@ -168,7 +164,6 @@ body {
   }
 
   &__item:hover {
-    width: 350px;
     transform: scale(1.1);
     transition: 1s;
   }
@@ -212,10 +207,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 40px;
     margin-left: 32px;
     margin-right: 207px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     border-radius: 52.58px;
     background: rgb(247, 247, 247);
   }
@@ -225,7 +220,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     text-align: left;
-    padding: 0px 36px 32px;
+    padding: 0px 36px 36px;
   }
 }
 
@@ -235,7 +230,7 @@ body {
 }
 .games {
   background-color: #202027;
-  height: 3500px;
+  padding-bottom: 112px;
 
   &__star--1 {
     position: absolute;
@@ -259,7 +254,6 @@ body {
   }
 
   &__cont {
-    height: 3310px;
     padding-top: 46px;
   }
   &__title {
@@ -279,6 +273,11 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 30px;
+  }
+
+  &__item:hover {
+    transform: scale(1.08);
+    transition: 1s;
   }
 
   &__imgrevers {

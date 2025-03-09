@@ -92,7 +92,8 @@ body {
   color: #202027;
   transition: 0.3s;
 }
-.top__line {
+
+.line {
   background-color: rgb(188, 236, 48);
   overflow: hidden;
   height: 90px;
@@ -100,7 +101,6 @@ body {
 
 .aboutGames {
   background: #202027;
-  height: 1470px;
 }
 .aboutGames__star--big {
   position: absolute;
@@ -137,13 +137,12 @@ body {
   color: #ffffff;
 }
 .aboutGames__box {
-  max-height: 1060px;
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   align-items: start;
   gap: 32px;
+  padding-bottom: 30px;
 }
 .aboutGames__item {
   display: flex;
@@ -155,7 +154,6 @@ body {
   z-index: 1;
 }
 .aboutGames__item:hover {
-  width: 350px;
   transform: scale(1.1);
   transition: 1s;
 }
@@ -191,10 +189,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 13px;
+  margin-top: 40px;
   margin-left: 32px;
   margin-right: 207px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
 }
@@ -203,7 +201,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   text-align: left;
-  padding: 0px 36px 32px;
+  padding: 0px 36px 36px;
 }
 
 .aboutGames__item:nth-child(4),
@@ -213,7 +211,7 @@ body {
 
 .games {
   background-color: #202027;
-  height: 3500px;
+  padding-bottom: 112px;
 }
 .games__star--1 {
   position: absolute;
@@ -236,7 +234,6 @@ body {
   right: 52px;
 }
 .games__cont {
-  height: 3310px;
   padding-top: 46px;
 }
 .games__title {
@@ -255,6 +252,10 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 30px;
+}
+.games__item:hover {
+  transform: scale(1.08);
+  transition: 1s;
 }
 .games__imgrevers {
   flex-direction: row-reverse;
@@ -492,20 +493,6 @@ body {
     width: 285px;
   }
 }
-.footer {
-  height: 100px;
-}
-.footer__text {
-  padding-top: 43px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
