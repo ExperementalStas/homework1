@@ -435,10 +435,7 @@ body {
   .games {
     height: 3740px;
   }
-  .games__star--1,
-  .games__star--2,
-  .games__star--3,
-  .games__star--4 {
+  .games__star--1, .games__star--2, .games__star--3, .games__star--4 {
     display: none;
   }
   .games__title {
