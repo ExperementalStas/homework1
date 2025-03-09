@@ -11,9 +11,11 @@ body {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
-
+.brm {
+  display: none;
+}
 .top {
-  height: 800px;
+  
   background-color: #e1ff8f;
 
   &__img1 {
@@ -227,8 +229,13 @@ body {
   }
 }
 
+.aboutGames__item:nth-child(4),
+.aboutGames__item:nth-child(6) {
+  margin-top: -32px;
+}
 .games {
   background-color: #202027;
+  height: 3500px;
 
   &__star--1 {
     position: absolute;
@@ -250,9 +257,10 @@ body {
     top: 5636px;
     right: 52px;
   }
-  &__content {
+
+  &__cont {
+    height: 3310px;
     padding-top: 46px;
-    padding-bottom: 144px;
   }
   &__title {
     font-family: Montserrat;
@@ -263,35 +271,29 @@ body {
     padding-bottom: 72px;
     color: #ffffff;
   }
+
   &__item {
-    margin-bottom: 32px;
-    border-radius: 30px;
-    color: rgb(32, 32, 39);
-    background-repeat: no-repeat;
-    height: 500px;
-    width: 100%;
-    padding: 48px;
     background-color: #ffffff;
     display: flex;
+    margin-bottom: 32px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 30px;
+  }
+
+  &__imgrevers {
+    flex-direction: row-reverse;
+  }
+  &__content--right {
+    padding-right: 48px;
+  }
+
+  &__content {
+    display: flex;
     flex-direction: column;
-  }
-  &__item--1 {
-    background-image: url(img/games1.png);
-  }
-  &__item--2 {
-    background-image: url(img/games2.png);
-  }
-  &__item--3 {
-    background-image: url(img/games3.png);
-  }
-  &__item--4 {
-    background-image: url(img/games4.png);
-  }
-  &__item--5 {
-    background-image: url(img/games5.png);
-  }
-  &__item--6 {
-    background-image: url(img/games6.png);
+    align-items: stretch;
+    padding-left: 48px;
+    padding-top: 48px;
   }
   &__item-title {
     color: rgb(32, 32, 39);
@@ -309,7 +311,8 @@ body {
     padding-bottom: 36px;
     width: 500px;
   }
-  &__item-btn {
+
+  &__sbtn {
     width: 247px;
     height: 66px;
     border: 1px solid rgb(32, 32, 39);
@@ -319,18 +322,12 @@ body {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    margin-right: 260px;
+
     font-family: "Montserrat";
   }
-  &__item--mb {
-    margin-bottom: 0px;
-  }
-  &__item--right {
-    background-position-x: right;
-  }
-  &__item--left {
-    background-position-x: left;
-    align-items: flex-end;
+
+  .games__brm {
+    display: none;
   }
 }
 
@@ -354,7 +351,6 @@ body {
 
 @import "mobile";
 @import "tablet";
-
 
 //calc((100vw - 1440px) / 2 - 448px);
 // <script src="hw-1.js"></script>
