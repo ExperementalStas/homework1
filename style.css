@@ -492,6 +492,19 @@ body {
     margin-bottom: 32px;
     width: 285px;
   }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .center {
