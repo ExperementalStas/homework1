@@ -319,7 +319,7 @@ body {
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -434,7 +434,7 @@ body {
     display: none;
   }
   .games {
-    height: 3740px;
+    padding-bottom: 49px;
   }
   .games__star--1, .games__star--2, .games__star--3, .games__star--4 {
     display: none;
