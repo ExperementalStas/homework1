@@ -95,11 +95,51 @@ body {
     transition: 0.3s;
   }
 }
+
 .line {
+  height: 90px;
+  overflow: hidden;
+  white-space: nowrap;
   background-color: rgb(188, 236, 48);
 
-  overflow: hidden;
-  height: 90px;
+  &__text {
+    padding-top: 27px;
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+
+  &__text2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110.00000000000001%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #202027;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  &__text-img {
+    display: inline-block;
+    font-size: 18px;
+    color: #202027;
+    margin-right: 51px;
+    margin-left: 51px;
+  }
+
+  &__text-img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+  }
 }
 
 .aboutGames {
@@ -352,4 +392,5 @@ body {
 @import "tablet";
 
 //calc((100vw - 1440px) / 2 - 448px);
-// 
+//    
+//

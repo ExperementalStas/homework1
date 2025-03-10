@@ -94,9 +94,44 @@ body {
 }
 
 .line {
-  background-color: rgb(188, 236, 48);
-  overflow: hidden;
   height: 90px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgb(188, 236, 48);
+}
+.line__text {
+  padding-top: 27px;
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+.line__text2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #202027;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.line__text-img {
+  display: inline-block;
+  font-size: 18px;
+  color: #202027;
+  margin-right: 51px;
+  margin-left: 51px;
+}
+.line__text-img {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
 }
 
 .aboutGames {
@@ -429,6 +464,18 @@ body {
     max-width: 100%;
     overflow: hidden;
     height: 51px;
+  }
+  .line__text {
+    padding-top: 16px;
+  }
+  .line__text2 {
+    font-size: 16px;
+  }
+  .line__text-img {
+    width: 19px;
+    height: 19px;
+    margin-left: 27px;
+    margin-right: 27px;
   }
   .aboutGames {
     display: none;
