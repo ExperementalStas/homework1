@@ -1,4 +1,5 @@
-//Задание 1
+// Задание 1
+
 let password = "444";
 let userInput = prompt("Введите пароль");
 if (userInput === password) {
@@ -8,6 +9,7 @@ if (userInput === password) {
 }
 
 //Задание 2
+
 let x = 7; 
 
 if (x > 0 && x < 10) {
@@ -16,6 +18,7 @@ if (x > 0 && x < 10) {
   console.log("Неверно");
 }
 // Задание 3
+
 let d = 120; 
 let e = 80;  
 if (d > 100 || e > 100) {
@@ -28,7 +31,9 @@ let a = "2";
 let b = "3";
 
 alert(+a + +b);
+
 //Задание 5
+
 let monthNumber = 12;
 if (monthNumber < 1 || monthNumber > 12) {
   console.log("Некорректный номер месяца. Введите число от 1 до 12.");

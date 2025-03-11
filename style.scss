@@ -76,6 +76,8 @@ body {
   }
 
   &__btn {
+    padding: 16px 65px 16px 65px;
+    display: inline-block;
     background: #202027;
     border: 1px solid #202027;
     box-sizing: border-box;
@@ -87,12 +89,12 @@ body {
     color: rgb(255, 255, 255);
     margin-top: 48px;
     margin-bottom: 156px;
+    transition: 0.3s;
   }
 
   &__btn:hover {
     background: #ffffff;
     color: #202027;
-    transition: 0.3s;
   }
 }
 
@@ -201,11 +203,11 @@ body {
     border-radius: 30px;
     background-repeat: no-repeat;
     z-index: 1;
+    transition: 1s;
   }
 
   &__item:hover {
     transform: scale(1.1);
-    transition: 1s;
   }
 
   &__item-content {
@@ -313,11 +315,11 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 30px;
+    transition: 1s;
   }
 
   &__item:hover {
     transform: scale(1.08);
-    transition: 1s;
   }
 
   &__imgrevers {
@@ -392,5 +394,3 @@ body {
 @import "tablet";
 
 //calc((100vw - 1440px) / 2 - 448px);
-//    
-//

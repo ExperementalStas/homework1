@@ -75,6 +75,8 @@ body {
   color: #202027;
 }
 .top__btn {
+  padding: 16px 65px 16px 65px;
+  display: inline-block;
   background: #202027;
   border: 1px solid #202027;
   box-sizing: border-box;
@@ -86,11 +88,11 @@ body {
   color: rgb(255, 255, 255);
   margin-top: 48px;
   margin-bottom: 156px;
+  transition: 0.3s;
 }
 .top__btn:hover {
   background: #ffffff;
   color: #202027;
-  transition: 0.3s;
 }
 
 .line {
@@ -187,10 +189,10 @@ body {
   border-radius: 30px;
   background-repeat: no-repeat;
   z-index: 1;
+  transition: 1s;
 }
 .aboutGames__item:hover {
   transform: scale(1.1);
-  transition: 1s;
 }
 .aboutGames__item-content {
   height: 314px;
@@ -287,10 +289,10 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 30px;
+  transition: 1s;
 }
 .games__item:hover {
   transform: scale(1.08);
-  transition: 1s;
 }
 .games__imgrevers {
   flex-direction: row-reverse;
@@ -439,6 +441,7 @@ body {
     font-weight: 600;
   }
   .top__btn {
+    text-align: center;
     background: #202027;
     border: 1px solid #202027;
     box-sizing: border-box;

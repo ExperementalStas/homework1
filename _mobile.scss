@@ -96,6 +96,7 @@
     }
 
     &__btn {
+      text-align: center;
       background: #202027;
       border: 1px solid #202027;
       box-sizing: border-box;
@@ -106,7 +107,6 @@
       font-weight: 600;
       color: rgb(255, 255, 255);
       margin-top: 32px;
-
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -228,5 +228,4 @@
     }
   }
 }
-//
-   // 
+  
