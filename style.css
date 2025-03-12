@@ -502,6 +502,10 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
+    transition: 1s;
+  }
+  .games__item:hover {
+    transform: scale(1.08);
   }
   .games__content {
     padding-left: 29px;
