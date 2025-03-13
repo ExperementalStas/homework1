@@ -264,12 +264,13 @@ body {
     text-align: left;
     padding: 0px 36px 36px;
   }
+
+  &__item:nth-child(4),
+  &__item:nth-child(6) {
+    margin-top: -32px;
+  }
 }
 
-.aboutGames__item:nth-child(4),
-.aboutGames__item:nth-child(6) {
-  margin-top: -32px;
-}
 .games {
   background-color: #202027;
   padding-bottom: 112px;
@@ -393,4 +394,4 @@ body {
 @import "mobile";
 @import "tablet";
 
-//calc((100vw - 1440px) / 2 - 448px);
+
