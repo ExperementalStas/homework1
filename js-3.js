@@ -34,36 +34,6 @@ while (n >= 50) {
 console.log(`Результат деления: ${n}`);
 console.log(`Количество итераций: ${num}`);
 
-// Доп Дз 1
 
-let input = prompt("Пожалуйста, введите любое число:");
-let number = parseFloat(input);
-if (isNaN(number)) {
-  alert("Вы ввели не число!");
-} else {
-  if (number % 2 === 0) {
-    alert("Число четное");
-  } else {
-    alert("Число нечетное");
-  }
-}
 
-// Доп Дз 2 совместно с 3
 
-let clientOS = parseInt(prompt("Введите 0 для iOS или 1 для Android:"));
-let clientDeviceYear = prompt("Введите год выпуска телефона:");
-let currentYear = new Date().getFullYear();
-
-if (clientDeviceYear < 2015) {
-  if (clientOS === 0) {
-    alert("Установите облегченную версию приложения для iOS по ссылке");
-  } else if (clientOS === 1) {
-    alert("Установите облегченную версию приложения для Android по ссылке");
-  }
-} else {
-  if (clientOS === 0) {
-    alert("Установите версию приложения для iOS по ссылке");
-  } else if (clientOS === 1) {
-    alert("Установите версию приложения для Android по ссылке");
-  }
-}
