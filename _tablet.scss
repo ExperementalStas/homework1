@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .center {
-    padding-left: calc(50% - 786px / 2);
-    padding-right: calc(50% - 786px / 2);
+    padding-left: calc(50% - 786px/2);
+    padding-right: calc(50% - 786px/2);
   }
   .top {
     background-position: top 0px right 0px, top 44px left 81px,
@@ -16,8 +16,7 @@
     max-width: 660px;
     text-align: center;
   }
-
-  .about-games {
+  .aboutGames {
     display: none;
   }
   .games__title {
@@ -29,7 +28,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
- 
+
   .footer-text {
     text-align: center;
   }
