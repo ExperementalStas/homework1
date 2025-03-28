@@ -1,0 +1,181 @@
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+
+  .line {
+    &__text2 {
+      font-size: 24px;
+    }
+
+    &__text-img {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  }
+
+  .top {
+    &__img1 {
+      top: 50px;
+      left: 100px;
+    }
+
+    &__img2 {
+      top: 70px;
+      left: 30px;
+    }
+
+    &__img3 {
+      top: 400px;
+      left: 700px;
+    }
+
+    &__img4 {
+      top: 430px;
+      left: 750px;
+    }
+
+    &__img5 {
+      top: 0px;
+      right: 0px;
+      width: 200px;
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 58px;
+    }
+
+    &__text {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &__btn {
+      font-size: 20px;
+      padding: 12px 50px;
+      width: 200px;
+      height: 56px;
+    }
+  }
+
+  .aboutGames {
+    &__star--big {
+      top: 800px;
+      right: 0px;
+      width: 150px;
+    }
+
+    &__star--1 {
+      top: 1300px;
+      left: 20px;
+    }
+
+    &__star--2 {
+      top: 1350px;
+      left: 40px;
+    }
+
+    &__title {
+      font-size: 48px;
+      line-height: 58px;
+    }
+
+    &__text {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &__item-text {
+      font-size: 24px;
+    }
+    &__box {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 24px;
+    }
+
+    &__item {
+      grid-column: span 3;
+    }
+
+    &__item:nth-child(4),
+    &__item:nth-child(6) {
+      margin-top: 0;
+    }
+  }
+  .games {
+    &__star--1 {
+      top: 2000px;
+      right: 80px;
+    }
+
+    &__star--2 {
+      top: 2030px;
+      right: 20px;
+    }
+
+    &__star--3 {
+      top: 4800px;
+      right: 100px;
+    }
+
+    &__star--4 {
+      top: 4750px;
+      right: 20px;
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 58px;
+    }
+
+    &__item-title {
+      font-size: 36px;
+      line-height: 44px;
+    }
+
+    &__item-text {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &__sbtn {
+      font-size: 20px;
+      width: 200px;
+      height: 56px;
+    }
+
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__imgrevers {
+      flex-direction: column;
+    }
+
+    &__content {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 24px;
+    }
+
+    &__content--right {
+      padding-right: 24px;
+    }
+
+    &__sbtn {
+      margin-bottom: 24px;
+    }
+  }
+
+  .footer {
+    height: 120px;
+
+    &__text {
+      font-size: 20px;
+      line-height: 24px;
+      padding-top: 40px;
+    }
+  }
+}

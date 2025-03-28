@@ -311,7 +311,6 @@ body {
   font-weight: 700;
   line-height: 59px;
   padding-bottom: 24px;
-  width: 504px;
 }
 .games__item-text {
   color: rgb(32, 32, 39);
@@ -319,7 +318,6 @@ body {
   font-weight: 400;
   line-height: 32px;
   padding-bottom: 36px;
-  width: 500px;
 }
 .games__sbtn {
   width: 247px;
@@ -354,6 +352,181 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  .line__text2 {
+    font-size: 24px;
+  }
+  .line__text-img {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .top__img1 {
+    top: 50px;
+    left: 100px;
+  }
+  .top__img2 {
+    top: 70px;
+    left: 30px;
+  }
+  .top__img3 {
+    top: 400px;
+    left: 700px;
+  }
+  .top__img4 {
+    top: 430px;
+    left: 750px;
+  }
+  .top__img5 {
+    top: 0px;
+    right: 0px;
+    width: 200px;
+  }
+  .top__title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .top__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .top__btn {
+    font-size: 20px;
+    padding: 12px 50px;
+    width: 200px;
+    height: 56px;
+  }
+  .aboutGames__star--big {
+    top: 800px;
+    right: 0px;
+    width: 150px;
+  }
+  .aboutGames__star--1 {
+    top: 1300px;
+    left: 20px;
+  }
+  .aboutGames__star--2 {
+    top: 1350px;
+    left: 40px;
+  }
+  .aboutGames__title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .aboutGames__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .aboutGames__item-text {
+    font-size: 24px;
+  }
+  .aboutGames__box {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+  }
+  .aboutGames__item {
+    grid-column: span 3;
+  }
+  .aboutGames__item:nth-child(4), .aboutGames__item:nth-child(6) {
+    margin-top: 0;
+  }
+  .games__star--1 {
+    top: 2000px;
+    right: 80px;
+  }
+  .games__star--2 {
+    top: 2030px;
+    right: 20px;
+  }
+  .games__star--3 {
+    top: 4800px;
+    right: 100px;
+  }
+  .games__star--4 {
+    top: 4750px;
+    right: 20px;
+  }
+  .games__title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .games__item-title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .games__item-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .games__sbtn {
+    font-size: 20px;
+    width: 200px;
+    height: 56px;
+  }
+  .games__item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .games__imgrevers {
+    flex-direction: column;
+  }
+  .games__content {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+  }
+  .games__content--right {
+    padding-right: 24px;
+  }
+  .games__sbtn {
+    margin-bottom: 24px;
+  }
+  .footer {
+    height: 120px;
+  }
+  .footer__text {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .top {
+    background-position: top 0px right 0px, top 44px left 81px, top 87px left 27px, bottom 64px right 106px, bottom 18px right 154px;
+  }
+  .top__block {
+    padding-top: 86px;
+    padding-bottom: 130px;
+    text-align: center;
+  }
+  .top__text {
+    max-width: 660px;
+    text-align: center;
+  }
+  .aboutGames {
+    display: none;
+  }
+  .games__title {
+    text-align: center;
+    font-size: 50px;
+  }
+  .games__box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-text {
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -556,28 +729,5 @@ body {
     text-align: center;
     vertical-align: middle;
     padding-top: 40px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .center {
-    padding-left: calc(50% - 393px);
-    padding-right: calc(50% - 393px);
-  }
-  .top {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-  .top.top__header {
-    padding-top: 147px;
-    margin-left: 17px;
-    margin-right: 16px;
-  }
-  .top__block {
-    max-width: 769px;
-  }
-  .top__title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
   }
 }/*# sourceMappingURL=style.css.map */
