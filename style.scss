@@ -343,7 +343,6 @@ body {
     font-weight: 700;
     line-height: 59px;
     padding-bottom: 24px;
-    
   }
   &__item-text {
     color: rgb(32, 32, 39);
@@ -351,7 +350,6 @@ body {
     font-weight: 400;
     line-height: 32px;
     padding-bottom: 36px;
-    
   }
 
   &__sbtn {
@@ -369,6 +367,12 @@ body {
 
   .games__brm {
     display: none;
+  }
+
+  .gameContainer {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
   }
 }
 
@@ -392,4 +396,3 @@ body {
 @import "notebook";
 @import "tablet";
 @import "mobile";
-

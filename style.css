@@ -334,6 +334,11 @@ body {
 .games .games__brm {
   display: none;
 }
+.games .gameContainer {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
 
 .footer {
   background-color: #bded35;
