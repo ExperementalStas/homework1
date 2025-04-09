@@ -69,7 +69,17 @@ console.log(getRandomInRange(10, 10));
 // Задание 8
 console.log(new Date().toString());
 
-// Задание 9
+// Задание 9.1
+const currentDate1 = new Date();
+const futureDate = new Date(currentDate1);
+futureDate.setDate(currentDate1.getDate() + 73);
+console.log('Текущая дата: ' + currentDate1.toLocaleDateString('ru-RU'));
+console.log('Дата через 73 дня: ' + futureDate.toLocaleDateString('ru-RU'));
+console.log('\nПодробный вывод:');
+console.log('Исходная дата:', currentDate1);
+console.log('Через 73 дня:', futureDate);
+
+// Задание 9.2
 const currentDate = new Date();
 console.log(
   "Через 73 дня:",
