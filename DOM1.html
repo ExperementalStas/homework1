@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dztitle1 {
+        display: none;
+      }
+      .dzcolor {
+        color: black;
+      }
+      .dzcolor1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="dztitle">
+      Заголовок который будет скрываться при нажатии на кнопку
+    </h1>
+    <button class="dzbtn">1Дз - Скрой заголовок</button>
+
+    <p class="dzcolor">Цвет который будет меняться при нажатии кнопки</p>
+    <button class="dzbtncolor">2Дз - Измени цвет</button>
+
+    <h1 class="dztext">Динамическое изменение текста</h1>
+    <button class="dzbtntext">3Дз - Изменить текст</button>
+
+    <div class="description">1 Элемент</div>
+    <div class="description">2 Элемент</div>
+    <div class="description">3 Элемент</div>
+
+    <p class="description1">Информация</p>
+    <p class="description1">Описание</p>
+    <p class="description1">Инструкция</p>
+    <p class="comment">Комментарии</p>
+    <p class="review">Отзывы</p>
+
+    <button class="newbtn">Добавление нового элемента</button>
+
+    <p class="description2">Первый элемент</p>
+    <p class="description2">Второй элемент</p>
+    <p class="descr">Третий элемент</p>
+    <p class="description2">Четвертый элемент</p>
+    <button class="btndel">Удалить первый элемент</button>
+
+    <script>
+      const dztitleEl = document.querySelector(".dztitle"); //1 Задание
+      const dzbtnEl = document.querySelector(".dzbtn");
+
+      dzbtnEl.addEventListener("click", function () {
+        dztitleEl.classList.toggle("dztitle1"); // или add вместо toggle чтоб не возвращать
+      });
+
+      const dzcolorEl = document.querySelector(".dzcolor"); //2 Задание
+      const dzbtncolorEl = document.querySelector(".dzbtncolor");
+
+      dzbtncolorEl.addEventListener("click", function () {
+        dzcolorEl.classList.add("dzcolor1");
+      });
+
+      const dztextEl = document.querySelector(".dztext"); //3 Задание
+      const dzbtntextEl = document.querySelector(".dzbtntext");
+
+      dzbtntextEl.addEventListener("click", function () {
+        dztextEl.textContent = "Привет,мир!";
+      });
+
+      const Alldescription = document.querySelectorAll(".description"); //4 Задание
+      Alldescription.forEach((description) => {
+        description.textContent = "Измененный текст";
+      });
+
+      const Alldescription1 = document.querySelectorAll(".description1"); //5 Задание
+      Alldescription1.forEach((description) => {
+        description.textContent = "Новый текст";
+      });
+
+      const newbtnEl = document.querySelector(".newbtn"); //6 Задание
+      newbtnEl.addEventListener("click", function () {
+        const newpEl = document.createElement("p");
+        newpEl.textContent = "Новый абзац";
+        document.body.append(newpEl);
+      });
+
+      const btndelEl = document.querySelector(".btndel"); //7 Задание
+      btndelEl.addEventListener("click", function () {
+        const description2 = document.querySelector(".description2");
+        description2.remove();
+      });
+    </script>
+  </body>
+</html>
