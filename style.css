@@ -300,6 +300,9 @@ body {
   flex-direction: row-reverse;
 }
 .games__content-right {
+  padding-right: 48px;
+}
+.games__content-right-2 {
   padding-right: 148px;
 }
 .games__content {

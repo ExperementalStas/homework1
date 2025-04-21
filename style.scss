@@ -331,9 +331,12 @@ body {
     flex-direction: row-reverse;
   }
   &__content-right {
-    padding-right: 148px;
+    padding-right: 48px;
   }
 
+   &__content-right-2 {
+    padding-right: 148px;
+  }
   &__content {
     display: flex;
     flex-direction: column;
