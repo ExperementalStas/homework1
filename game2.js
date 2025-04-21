@@ -54,6 +54,6 @@ function startGameWithPrompt() {
   }
 }
 
-document.getElementById("startGameButton").addEventListener("click", () => {
+document.getElementById("startGame2").addEventListener("click", () => {
   startGameWithPrompt();
 });
