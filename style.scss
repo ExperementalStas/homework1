@@ -148,22 +148,22 @@ body {
   }
 }
 
-.aboutGames {
+.about-Games {
   background: #202027;
 
-  &__star--big {
+  &__star-big {
     position: absolute;
     top: 945px;
     right: 0px;
   }
 
-  &__star--1 {
+  &__star-1 {
     position: absolute;
     top: 1570px;
     left: 27.97px;
   }
 
-  &__star--2 {
+  &__star-2 {
     position: absolute;
     top: 1622px;
     left: 48.18px;
@@ -220,28 +220,28 @@ body {
     border-radius: 30px;
   }
 
-  &__item-content--1 {
+  &__item-content-1 {
     background: url(img/about1.png);
     background-repeat: no-repeat;
   }
 
-  &__item-content--2 {
+  &__item-content-2 {
     background: url(img/about2.png);
   }
 
-  &__item-content--3 {
+  &__item-content-3 {
     background: url(img/about3.png);
   }
 
-  &__item-content--4 {
+  &__item-content-4 {
     background: url(img/about4.png);
   }
 
-  &__item-content--5 {
+  &__item-content-5 {
     background: url(img/about5.png);
   }
 
-  &__item-content--6 {
+  &__item-content-6 {
     background: url(img/about6.png);
   }
 
@@ -279,22 +279,22 @@ body {
   background-color: #202027;
   padding-bottom: 112px;
 
-  &__star--1 {
+  &__star-1 {
     position: absolute;
     top: 2363px;
     right: 124px;
   }
-  &__star--2 {
+  &__star-2 {
     position: absolute;
     top: 2396px;
     right: 45px;
   }
-  &__star--3 {
+  &__star-3 {
     position: absolute;
     top: 5684px;
     right: 150px;
   }
-  &__star--4 {
+  &__star-4 {
     position: absolute;
     top: 5636px;
     right: 52px;
@@ -330,8 +330,8 @@ body {
   &__imgrevers {
     flex-direction: row-reverse;
   }
-  &__content--right {
-    padding-right: 48px;
+  &__content-right {
+    padding-right: 148px;
   }
 
   &__content {
@@ -340,6 +340,7 @@ body {
     align-items: stretch;
     padding-left: 48px;
     padding-top: 48px;
+    
   }
   &__item-title {
     color: rgb(32, 32, 39);
@@ -367,6 +368,10 @@ body {
     font-weight: 600;
     text-align: center;
     font-family: "Montserrat";
+  }
+  &__sbtn:hover {
+    background: #ffffff;
+    color: #202027;
   }
 
   .games__brm {
